@@ -2,22 +2,20 @@ a[target='_blank'] {
   color: green;
 }
 
-ul,
-ol {
-  background-color: yellow;
-}
-
 footer,
 header {
   border: 3px dashed blue;
 }
 
+ul,
+ol {
+  background-color: yellow;
+}
+
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
   margin-left: 20px;
 }
 
@@ -25,10 +23,10 @@ article.new {
   font-size: 24px;
 }
 
-.topic.new {
+li.new {
   background-color: red;
 }
 
-article.new.posted-today {
+.posted-today.new {
   background-color: pink;
 }
